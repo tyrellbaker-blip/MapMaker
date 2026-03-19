@@ -1,6 +1,15 @@
 """
 Main window module for the Map Maker application.
 Provides the primary application window with toolbar and canvas.
+
+Authors: Ty Baker, Everett Loxley
+Created: March 19, 2026
+
+Toolbar Components:
+    - Upload Image: Load a background image onto the canvas
+    - Pen Tool: Toggle freehand drawing mode
+    - Color: Open color picker for stroke color
+    - Brush Size: Select stroke width (Small/Medium/Large)
 """
 
 from PyQt6.QtWidgets import (

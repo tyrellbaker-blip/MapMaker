@@ -3,7 +3,22 @@ Map Maker Application
 A desktop application for creating custom maps with background images.
 
 Entry point for the application.
+
+Authors: Ty Baker, Everett Loxley
+Created: March 19, 2026
+Version: 0.2.0
+
+Project Structure:
+    main.py              - Application entry point
+    ui/main_window.py    - Main window and toolbar components
+    canvas/canvas_view.py - Canvas display and drawing logic
+
+Dependencies:
+    - PyQt6: GUI framework
+    - Pillow: Image validation and processing
 """
+
+__version__ = "0.2.0"
 
 import sys
 from PyQt6.QtWidgets import QApplication

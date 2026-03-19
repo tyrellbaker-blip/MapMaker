@@ -2,6 +2,16 @@
 Canvas view module for the Map Maker application.
 Provides the main canvas where the map background image is displayed.
 Supports freehand drawing on top of the background image.
+
+Authors: Ty Baker, Everett Loxley
+Created: March 19, 2026
+
+Features:
+    - Background image loading with Pillow validation
+    - Automatic resizing for images exceeding 4000x4000 pixels
+    - Mouse wheel zoom (0.1x to 10x range)
+    - Freehand drawing with customizable color and brush size
+    - Strokes stored as QGraphicsPathItems on the scene
 """
 
 from PyQt6.QtWidgets import (
